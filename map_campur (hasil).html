@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b679d7e2756b92666114139df673f1a1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b679d7e2756b92666114139df673f1a1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b679d7e2756b92666114139df673f1a1 = L.map(
+                "map_b679d7e2756b92666114139df673f1a1",
+                {
+                    center: [-6.251358618, 107.0877499],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c9ab4be3722c48ddd182d2e3fe542bc7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            var rectangle_410f154198e85c311d6fea4d9aca8325 = L.rectangle(
+                [[-6.255208133808469, 107.10923446471921], [-6.2823359696287815, 107.13634495223289]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_410f154198e85c311d6fea4d9aca8325.bindTooltip(
+                `<div>
+                     Jalan Raya Imam Bonjol, Sukadanau, Kab Bekasi, Jawa Barat, Jawa, 17383, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_bcf28717c6f6f4857e21a4625781e499 = L.rectangle(
+                [[-6.24478677449667, 107.13485128813258], [-6.271914621064723, 107.16196123801353]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_bcf28717c6f6f4857e21a4625781e499.bindTooltip(
+                `<div>
+                     Jalan R.E. Martadinata, Cikarang, Kab Bekasi, Jawa Barat, Jawa, 17383, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_dd5dc905ecf5bbdf9f002929956e4e5d = L.rectangle(
+                [[-5.988993976514572, 107.01111641528196], [-6.016122081366767, 107.03821345477245]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_dd5dc905ecf5bbdf9f002929956e4e5d.bindTooltip(
+                `<div>
+                     Pantaisederhana, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2cf10af755446d01617bffe2440af8bd = L.rectangle(
+                [[-6.171324995438794, 107.02537985706766], [-6.198452917270082, 107.05248604297279]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_2cf10af755446d01617bffe2440af8bd.bindTooltip(
+                `<div>
+                     Jalan Raya Babelan, Babelan Kota, Kab Bekasi, Jawa Barat, Jawa, 17610, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_cc66f6f481e29e2eb75b0cc09cff7775 = L.rectangle(
+                [[-6.237073858721166, 107.14458115168779], [-6.264201713232364, 107.1716907042508]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_cc66f6f481e29e2eb75b0cc09cff7775.bindTooltip(
+                `<div>
+                     Jalan Ki Hajar Dewantara, Karangasih, Kab Bekasi, Jawa Barat, Jawa, 17383, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_33e1c2ae2eb1f0d93d79f6db12334dfe = L.rectangle(
+                [[-6.257541873431275, 107.1709467012661], [-6.2846697068423465, 107.19805730930129]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_33e1c2ae2eb1f0d93d79f6db12334dfe.bindTooltip(
+                `<div>
+                     Jalan Urip Sumaharjo, Simpangan, Kab Bekasi, Jawa Barat, Jawa, 17581, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_3b0a51772adacf7cb898763ecfe51734 = L.rectangle(
+                [[-6.270270140201106, 107.07881926927888], [-6.297397960456601, 107.1059305354465]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_3b0a51772adacf7cb898763ecfe51734.bindTooltip(
+                `<div>
+                     Jalan Bali, Gandamekar, Kab Bekasi, Jawa Barat, Jawa, 17520, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_de368327a3114551edaf255acb89a2b0 = L.rectangle(
+                [[-6.332662179609593, 107.19810003252752], [-6.359789934998884, 107.22521454445727]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_de368327a3114551edaf255acb89a2b0.bindTooltip(
+                `<div>
+                     Jalan Kalimalang, Pasirtanjung, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_402f690a4695f18cd3df9d28ed18568b = L.rectangle(
+                [[-6.080569864226901, 107.0636250407564], [-6.107697877830814, 107.09072663918188]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_402f690a4695f18cd3df9d28ed18568b.bindTooltip(
+                `<div>
+                     Sukatenang, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_debda2ad46196b5d5979d6b37b8ad31d = L.rectangle(
+                [[-6.2314337211997035, 107.05003813796577], [-6.258561581513292, 107.07714740030292]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_debda2ad46196b5d5979d6b37b8ad31d.bindTooltip(
+                `<div>
+                     Jalan Raya Sumberjaya, Puri Cendana, Sasak Tiga, Mangunjaya, Kab Bekasi, Jawa Barat, Jawa, 17519, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_6cd369133a24211d3a0d4d769a55a567 = L.rectangle(
+                [[-6.22139511767257, 107.09887990901245], [-6.248522988300802, 107.12598865545192]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_6cd369133a24211d3a0d4d769a55a567.bindTooltip(
+                `<div>
+                     Jalan Raya Kali CBL, Wanajaya, Kab Bekasi, Jawa Barat, Jawa, 17383, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0deece303a8a1cd70f21cf0921b62293 = L.rectangle(
+                [[-6.253795448713249, 107.06666830564092], [-6.280923285991519, 107.09377872022141]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_0deece303a8a1cd70f21cf0921b62293.bindTooltip(
+                `<div>
+                     Jalan Raya Teuku Umar, Kompas, Gandasari, Kab Bekasi, Jawa Barat, Jawa, 17520, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_607b48ae2cada47a571c420271aee615 = L.rectangle(
+                [[-6.271923820167232, 107.14534265712646], [-6.299051638711601, 107.17245400889979]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_607b48ae2cada47a571c420271aee615.bindTooltip(
+                `<div>
+                     Jalan Raya Lemahabang, Kota Jababeka, Mekarmukti, Kab Bekasi, Jawa Barat, Jawa, 17530, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_9db4fd5ceaa064e3eb1ce7d4d5bbff69 = L.rectangle(
+                [[-6.328254574560605, 107.1183229052987], [-6.355382334552978, 107.14543718686151]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_9db4fd5ceaa064e3eb1ce7d4d5bbff69.bindTooltip(
+                `<div>
+                     Jalan Inti III, Bekasi International Industrial Estate, Serang, Kab Bekasi, Jawa Barat, Jawa, 17550, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_62d6424893f2c15caeff73896bacaca5 = L.rectangle(
+                [[-5.991412681711032, 107.07649656424704], [-6.018540784170672, 107.10359372324429]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_62d6424893f2c15caeff73896bacaca5.bindTooltip(
+                `<div>
+                     Jayasakti, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_3fe0d5e4210f2cf35e9ca262189d5129 = L.rectangle(
+                [[-6.25779367430179, 107.2536722974136], [-6.28492150745286, 107.2807829184553]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_3fe0d5e4210f2cf35e9ca262189d5129.bindTooltip(
+                `<div>
+                     Jalan Urip Sumaharjo, Bojongsari, Kab Bekasi, Jawa Barat, Jawa, 11410, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_3d3724a6aa933d078a7a61d0a63ec0ae = L.rectangle(
+                [[-6.203774557066114, 107.14638318188295], [-6.230902445759943, 107.17349102482429]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_3d3724a6aa933d078a7a61d0a63ec0ae.bindTooltip(
+                `<div>
+                     Sukarukun, Kab Bekasi, Jawa Barat, Jawa, 17383, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d78a15cd33b36d5d18ce29e82082a03f = L.rectangle(
+                [[-6.259042880159197, 107.05577175086813], [-6.286170712020234, 107.08288243644412]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d78a15cd33b36d5d18ce29e82082a03f.bindTooltip(
+                `<div>
+                     Kompas, Cibuntu, Kab Bekasi, Jawa Barat, Jawa, 17510, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_57c924ed4ccd390d553f71e40b277c4d = L.rectangle(
+                [[-6.293358684934662, 107.1344368694352], [-6.320486481259513, 107.16154933290241]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_57c924ed4ccd390d553f71e40b277c4d.bindTooltip(
+                `<div>
+                     Jalan Kali Malang Jababeka, Pasirsari, Kab Bekasi, Jawa Barat, Jawa, 17530, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d167273a522f853bd685c61daa9574dd = L.rectangle(
+                [[-6.316634763155623, 107.1606840315606], [-6.343762535268069, 107.18779770658777]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d167273a522f853bd685c61daa9574dd.bindTooltip(
+                `<div>
+                     Jalan Kali Malang Jababeka, Kawasan Industri Jababeka 5, Jayamukti, Kab Bekasi, Jawa Barat, Jawa, 17530, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_f6388eda0b93fab19f958482abc01964 = L.rectangle(
+                [[-6.3440476022258165, 107.16747503247903], [-6.371175345710186, 107.19459014023285]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_f6388eda0b93fab19f958482abc01964.bindTooltip(
+                `<div>
+                     Jalan Deltamas Boulevard, Cikarang, Kota Deltamas, Sukamahi, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_41f7bc8eda2f7d596e4100e027135dbc = L.rectangle(
+                [[-6.2727836334462195, 107.05673431411871], [-6.299911451100735, 107.08384571041091]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_41f7bc8eda2f7d596e4100e027135dbc.bindTooltip(
+                `<div>
+                     Jalan MT Haryono, Cibuntu, Kab Bekasi, Jawa Barat, Jawa, 17510, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1149a7d03e71fff737f4226210fc5c2c = L.rectangle(
+                [[-6.112237988072824, 107.04500827416031], [-6.139365969805294, 107.07211146549118]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_1149a7d03e71fff737f4226210fc5c2c.bindTooltip(
+                `<div>
+                     Jalan Muara Bakti, Kab Bekasi, Jawa Barat, Jawa, 17611, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_6ef5e82f8de421eb4edaca1f1c99ad3e = L.rectangle(
+                [[-6.263709787389422, 107.05115911913292], [-6.290837614428789, 107.07827004591852]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_6ef5e82f8de421eb4edaca1f1c99ad3e.bindTooltip(
+                `<div>
+                     Jalan Inspeksi Kalimalang, Cibuntu, Kab Bekasi, Jawa Barat, Jawa, 17510, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_83c85867ef4532f01da4c487b5cd7565 = L.rectangle(
+                [[-6.268107259263731, 107.20019540922372], [-6.295235081756567, 107.22730656346062]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_83c85867ef4532f01da4c487b5cd7565.bindTooltip(
+                `<div>
+                     Tanjungbaru, Kab Bekasi, Jawa Barat, Jawa, 11410, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_97550d6aa6721c2b74d0cbedf9c28236 = L.rectangle(
+                [[-6.188452371035906, 107.27544311666678], [-6.215580275398004, 107.3025501760792]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_97550d6aa6721c2b74d0cbedf9c28236.bindTooltip(
+                `<div>
+                     Jalan Raya Pebayuran, Kertajaya, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_74de16484d85e3026f24c4e4e3f4db72 = L.rectangle(
+                [[-6.177761651224613, 107.13334942587012], [-6.204889566496364, 107.16045593975998]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_74de16484d85e3026f24c4e4e3f4db72.bindTooltip(
+                `<div>
+                     Banjarsari, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_dad5e18e7db9c7ef062bc5447baca87f = L.rectangle(
+                [[-6.1737623162520405, 107.06267328172409], [-6.20089023560027, 107.08977959178384]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_dad5e18e7db9c7ef062bc5447baca87f.bindTooltip(
+                `<div>
+                     Jalan Raya Kali CBL, Kab Bekasi, Jawa Barat, Jawa, 17567, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_88743d4a2ae0cd5ebcf69499c74826f5 = L.rectangle(
+                [[-6.306864728674029, 107.08241087015588], [-6.3339925109602095, 107.10952403608128]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_88743d4a2ae0cd5ebcf69499c74826f5.bindTooltip(
+                `<div>
+                     Jalal Irian VII, MM2100 Industrial Town, Jatiwangi, Kab Bekasi, Jawa Barat, Jawa, 17550, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1c7b2bf9cb1ec642097f9c09d9439d10 = L.rectangle(
+                [[-6.219992986277695, 107.25408591094435], [-6.247120858345312, 107.28119458539372]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_1c7b2bf9cb1ec642097f9c09d9439d10.bindTooltip(
+                `<div>
+                     Jalan Raya Pebayuran, Kedungwaringin, Kab Bekasi, Jawa Barat, Jawa, 41316, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_c46cc2c12047659142c63b8d0debd437 = L.rectangle(
+                [[-6.142579249011764, 107.20436878106742], [-6.169707200055602, 107.23147350645608]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_c46cc2c12047659142c63b8d0debd437.bindTooltip(
+                `<div>
+                     Sukalaksana, Kab Bekasi, Jawa Barat, Jawa, 17630, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_82837fbf258f7a494200a31a2649dc5d = L.rectangle(
+                [[-6.158996723567601, 107.26542423927283], [-6.1861246579437665, 107.29252979795248]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_82837fbf258f7a494200a31a2649dc5d.bindTooltip(
+                `<div>
+                     Jalan Raya Pebayuran, Kertajaya, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_81cf5c06523b46b1f17022a58b46ac47 = L.rectangle(
+                [[-6.29278988971271, 107.20722609420108], [-6.319917686628138, 107.23433852811851]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_81cf5c06523b46b1f17022a58b46ac47.bindTooltip(
+                `<div>
+                     Cipayung, Kab Bekasi, Jawa Barat, Jawa, 11410, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_342cddb6982b61e32733428e09ffecb2 = L.rectangle(
+                [[-6.262599690083631, 107.0451756167995], [-6.2897275182702295, 107.07228648619302]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_342cddb6982b61e32733428e09ffecb2.bindTooltip(
+                `<div>
+                     Jalan Inspeksi Kalimalang, Pekopen, Kab Bekasi, Jawa Barat, Jawa, 17510, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_196d9082caee6c04cc361bf0daf129c8 = L.rectangle(
+                [[-6.280707207977108, 107.22594661833374], [-6.3078350174255595, 107.25305842518011]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_196d9082caee6c04cc361bf0daf129c8.bindTooltip(
+                `<div>
+                     Cipayung, Kab Bekasi, Jawa Barat, Jawa, 11410, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_07bd2810b13fd4d97fd31d1ebdabcc84 = L.rectangle(
+                [[-6.420987456862528, 107.0656223948121], [-6.448115119346426, 107.09274155757709]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_07bd2810b13fd4d97fd31d1ebdabcc84.bindTooltip(
+                `<div>
+                     Jalan Raya Cibarusah, Cibarusahkota, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_9f1716fa2fa9d3bb3495cb633dc44f3f = L.rectangle(
+                [[-6.369336276068094, 107.09309171032913], [-6.396463993034842, 107.12020814539436]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_9f1716fa2fa9d3bb3495cb633dc44f3f.bindTooltip(
+                `<div>
+                     Jalan Raya Cibarusah, Serang Baru, Kampung Nyempil, Kab Bekasi, Jawa Barat, Jawa, 17330, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_ab2df82b13d1754426c54f1a262f0b00 = L.rectangle(
+                [[-6.253086675162363, 107.22484828284344], [-6.280214513172, 107.25195866083814]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_ab2df82b13d1754426c54f1a262f0b00.bindTooltip(
+                `<div>
+                     Waringinjaya, Kab Bekasi, Jawa Barat, Jawa, 11410, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_05a01e31071e8f48eaa5c21836774966 = L.rectangle(
+                [[-6.122709510034971, 107.14753159896054], [-6.149837481192903, 107.17463531885976]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_05a01e31071e8f48eaa5c21836774966.bindTooltip(
+                `<div>
+                     Jalan Kampung Galian, Sukamulya, Kab Bekasi, Jawa Barat, Jawa, 17630, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_8751fe7fba5efd441f81ea14a3f631df = L.rectangle(
+                [[-6.060249136024336, 107.1396413169773], [-6.087377169993757, 107.16674189770214]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_8751fe7fba5efd441f81ea14a3f631df.bindTooltip(
+                `<div>
+                     Jalan Raya Cabangbungin, Lenggahjaya, Kab Bekasi, Jawa Barat, Jawa, 17720, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d018eb646b9cc47271b4df5891f545eb = L.rectangle(
+                [[-6.261723706425846, 107.02994994125984], [-6.288851535517589, 107.05706076537227]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d018eb646b9cc47271b4df5891f545eb.bindTooltip(
+                `<div>
+                     Jalan Mustikajaya, Dukuh Bima, Lambangsari, Kab Bekasi, Jawa Barat, Jawa, 17510, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_40b098bb895e6a46de770b63ebd367ca = L.rectangle(
+                [[-6.124919640578634, 107.26128342696829], [-6.152047609502419, 107.28838725854531]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_40b098bb895e6a46de770b63ebd367ca.bindTooltip(
+                `<div>
+                     Jalan Raya Pebayuran, Karangharja, Kab Bekasi, Jawa Barat, Jawa, 17720, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d6d6daaa6f77d50713354d7c9ca0995f = L.rectangle(
+                [[-6.147353590688608, 107.10897749536622], [-6.174481536889853, 107.13608246284971]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d6d6daaa6f77d50713354d7c9ca0995f.bindTooltip(
+                `<div>
+                     Sukarahayu, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_36b5dac59a170c712b0ad5f05fba19f0 = L.rectangle(
+                [[-6.098082056385417, 106.98077575607313], [-6.1252100523848085, 107.00787823432125]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_36b5dac59a170c712b0ad5f05fba19f0.bindTooltip(
+                `<div>
+                     Jalan Taruma Jaya, Pahlawansetia, Kab Bekasi, Jawa Barat, Jawa, 17216, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_724587211c43459b4c29dc4dc05761ac = L.rectangle(
+                [[-6.151215353145027, 106.9578804625314], [-6.178343295426596, 106.9849856259751]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_724587211c43459b4c29dc4dc05761ac.bindTooltip(
+                `<div>
+                     Jalan Inspeksi BKT, RW 03, Ujung Menteng, Cilincing, Jakarta Utara, Pusakarakyat, Kab Bekasi, Jawa Barat, Jawa, 17214, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b44b1a603db2bba703003b6dc53f592e = L.rectangle(
+                [[-6.308116780655821, 107.08199778177399], [-6.33524456163908, 107.10911101289712]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_b44b1a603db2bba703003b6dc53f592e.bindTooltip(
+                `<div>
+                     Jalan Irian, MM2100 Industrial Town, Jatiwangi, Kab Bekasi, Jawa Barat, Jawa, 17550, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_5f9be46daec1cf5f61643d79a491485e = L.rectangle(
+                [[-6.132375744136125, 107.01563773886308], [-6.159503705516945, 107.0427419474991]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_5f9be46daec1cf5f61643d79a491485e.bindTooltip(
+                `<div>
+                     Jalan Raya Pertamina, Kedungpengawas, Kab Bekasi, Jawa Barat, Jawa, 17611, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_15bfdb2c4182af430f4b582ddec3ca52 = L.rectangle(
+                [[-6.2843169450391505, 107.03840677570643], [-6.311444750745803, 107.06551876976363]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_15bfdb2c4182af430f4b582ddec3ca52.bindTooltip(
+                `<div>
+                     Orchard Avenue, Grand Wisata Residence, Grand Wisata, Lambangjaya, Kab Bekasi, Jawa Barat, Jawa, 17158, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d6f61c8dc1d641b424109d2fea893c32 = L.rectangle(
+                [[-6.255873656040388, 107.22203477731094], [-6.283001491173736, 107.24914529918956]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d6f61c8dc1d641b424109d2fea893c32.bindTooltip(
+                `<div>
+                     Jalal Raya Lemah Abang, Tanjungbaru, Kab Bekasi, Jawa Barat, Jawa, 11410, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_f11f1f585c21a0a968bd8ae5b97230f6 = L.rectangle(
+                [[-6.070240048178583, 107.0985824993183], [-6.097368072143448, 107.12568357997415]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_f11f1f585c21a0a968bd8ae5b97230f6.bindTooltip(
+                `<div>
+                     Jalan Jayabakti Cabangbungin, Jayabakti, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_216d1a04fa08cb096c876026e7ada1f4 = L.rectangle(
+                [[-6.271575842466529, 107.02435272903803], [-6.298703661371002, 107.05146406279577]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_216d1a04fa08cb096c876026e7ada1f4.bindTooltip(
+                `<div>
+                     Perum. Taman Elok Persada, Mutiara Gading, Mustikajaya, Bekasi, Kab Bekasi, Jawa Barat, Jawa, 17158, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_e24cbabad1462bd976796c09755d754d = L.rectangle(
+                [[-6.249067144607552, 107.00975093448666], [-6.27619498676331, 107.03686110507934]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_e24cbabad1462bd976796c09755d754d.bindTooltip(
+                `<div>
+                     Jalan Inspeksi Kalimalang, Dukuh Bima, Lambangsari, Kab Bekasi, Jawa Barat, Jawa, 17510, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_69c915a5d6fcbe1f38cfb6bb8fb7a28d = L.rectangle(
+                [[-6.206045249236105, 107.07345707090732], [-6.233173135604714, 107.10056503013253]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_69c915a5d6fcbe1f38cfb6bb8fb7a28d.bindTooltip(
+                `<div>
+                     Jalan Raya Kali CBL, Sumberjaya, Kab Bekasi, Jawa Barat, Jawa, 17519, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2c2260ad307bc07d41bd4a6b64e29b90 = L.rectangle(
+                [[-6.32996244004921, 107.0755382690321], [-6.357090198258346, 107.10265263983845]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_2c2260ad307bc07d41bd4a6b64e29b90.bindTooltip(
+                `<div>
+                     Jalan Aru, MM2100 Industrial Town, Cikedokan, Kab Bekasi, Jawa Barat, Jawa, 17330, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_f896ba6773c90005a027df6d47a1579b = L.rectangle(
+                [[-6.121268146620587, 107.11967729072799], [-6.148396119235117, 107.14678093781725]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_f896ba6773c90005a027df6d47a1579b.bindTooltip(
+                `<div>
+                     Sukamantri, Kab Bekasi, Jawa Barat, Jawa, 17720, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_495ea1fce4f592b4743f29b9f29511f9 = L.rectangle(
+                [[-6.025163269810902, 107.0992185708963], [-6.052291338785802, 107.12631740260608]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_495ea1fce4f592b4743f29b9f29511f9.bindTooltip(
+                `<div>
+                     Jalan Raya Kampung Baru - Kampung Bugis, Lenggahsari, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_a8b42010cac29dfc07440740e2d144ce = L.rectangle(
+                [[-6.202673597620664, 107.05693020196426], [-6.229801487441588, 107.08403798854022]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_a8b42010cac29dfc07440740e2d144ce.bindTooltip(
+                `<div>
+                     Jalenjaya, Kab Bekasi, Jawa Barat, Jawa, 17567, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0715fcc3d66e79f2fbf8bf74861b7af8 = L.rectangle(
+                [[-6.351283142658208, 107.16573490669444], [-6.378410878565987, 107.1928503936664]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_0715fcc3d66e79f2fbf8bf74861b7af8.bindTooltip(
+                `<div>
+                     Jalan Wibawa Mukti, Kota Deltamas, Sukamahi, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b477b600221d2f0d25f43a873335ecd0 = L.rectangle(
+                [[-6.387122248745798, 107.08547520460246], [-6.41424994700023, 107.11259257641139]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_b477b600221d2f0d25f43a873335ecd0.bindTooltip(
+                `<div>
+                     Jalan Raya Cibarusah, Serang Baru, Kampung Nyempil, Kab Bekasi, Jawa Barat, Jawa, 17330, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_eab20f591b0d4449ce4f102a619eaf95 = L.rectangle(
+                [[-6.155494888332851, 106.991246276876], [-6.1826228262678855, 107.01835165762547]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_eab20f591b0d4449ce4f102a619eaf95.bindTooltip(
+                `<div>
+                     Kab Bekasi, Jawa Barat, Jawa, 17215, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_9c57f743f810f780cc4a16c903d7a75a = L.rectangle(
+                [[-6.300965053638381, 107.04462484471361], [-6.328092842060531, 107.07173770360444]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_9c57f743f810f780cc4a16c903d7a75a.bindTooltip(
+                `<div>
+                     Lubangbuaya, Kab Bekasi, Jawa Barat, Jawa, 17155, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_c1475fef170bbd139318cfd7589e5487 = L.rectangle(
+                [[-6.119363153035938, 107.01440083614636], [-6.146491127575079, 107.04150438703232]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_c1475fef170bbd139318cfd7589e5487.bindTooltip(
+                `<div>
+                     PAbrik, Jalan Raya Pertamina, Kab Bekasi, Jawa Barat, Jawa, 17218, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_42f6face40b1e019566c7647afa0103e = L.rectangle(
+                [[-6.258546805304531, 107.00975954073351], [-6.285674637677888, 107.03687020068058]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_42f6face40b1e019566c7647afa0103e.bindTooltip(
+                `<div>
+                     Jalan Jati IX, Perum. Jatimulya Bekasi, Jatimulya, Kab Bekasi, Jawa Barat, Jawa, 17115, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_550eefced501c1a15309a6b174be137b = L.rectangle(
+                [[-6.22513728877128, 107.19242367913411], [-6.252265155556348, 107.21953261778994]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_550eefced501c1a15309a6b174be137b.bindTooltip(
+                `<div>
+                     Karangsari, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_a68f443fafc8d06c667fcc036cf8861f = L.rectangle(
+                [[-6.065795912528658, 107.08702011030636], [-6.0929239409457265, 107.1141209684806]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_a68f443fafc8d06c667fcc036cf8861f.bindTooltip(
+                `<div>
+                     Jalan Jayabakti Cabangbungin, Sukaringin, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d42466666f7f737d4169ec3a31fe53c3 = L.rectangle(
+                [[-6.156468455662129, 107.23078892944893], [-6.18359639260794, 107.25789435965557]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d42466666f7f737d4169ec3a31fe53c3.bindTooltip(
+                `<div>
+                     Jalan Rumbia, Karangpatri, Kab Bekasi, Jawa Barat, Jawa, 17630, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_ea87622b3b66ce21d0863d4fa2d888c6 = L.rectangle(
+                [[-6.320981967168633, 107.04669720083122], [-6.348109734749276, 107.0738111026426]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_ea87622b3b66ce21d0863d4fa2d888c6.bindTooltip(
+                `<div>
+                     Telajung, Kab Bekasi, Jawa Barat, Jawa, 17320, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_0887dc297a746cdcccb45154bcabdf39 = L.rectangle(
+                [[-6.405559005275447, 107.08879328533386], [-6.432686684078846, 107.11591163097094]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_0887dc297a746cdcccb45154bcabdf39.bindTooltip(
+                `<div>
+                     Wibawamulya, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_5a33e30c417b72318af3de84ad8f44bd = L.rectangle(
+                [[-6.372646109112549, 107.05801581732408], [-6.399773822600958, 107.08513242650858]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_5a33e30c417b72318af3de84ad8f44bd.bindTooltip(
+                `<div>
+                     Kertarahayu, Kab Bekasi, Jawa Barat, Jawa, 17330, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_a50666e0a279007b8f51126798f6ee68 = L.rectangle(
+                [[-6.173266508836852, 106.99473332579305], [-6.200394428690269, 107.02183961059283]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_a50666e0a279007b8f51126798f6ee68.bindTooltip(
+                `<div>
+                     Jalan Pondok Ungu Permai, Grand Pondok Ungu, Kab Bekasi, Jawa Barat, Jawa, 17125, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_a9a514ed76586e4980f99e6c2ae8e0b5 = L.rectangle(
+                [[-6.1776493658339415, 107.0961753916753], [-6.2047772812201805, 107.1232818998406]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_a9a514ed76586e4980f99e6c2ae8e0b5.bindTooltip(
+                `<div>
+                     Sukaraja, Kab Bekasi, Jawa Barat, Jawa, 17519, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d747ef704fae7917c8a1fbc7a6494e60 = L.rectangle(
+                [[-6.200085472537333, 107.17615241200966], [-6.2272133650070485, 107.20326006612248]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d747ef704fae7917c8a1fbc7a6494e60.bindTooltip(
+                `<div>
+                     Karanganyar, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_15ecee01146443675f03b86e60e38bcf = L.rectangle(
+                [[-6.355937685288628, 107.14500832780969], [-6.383065416317989, 107.17212405896119]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_15ecee01146443675f03b86e60e38bcf.bindTooltip(
+                `<div>
+                     Delta Silicon III, Cicau, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_926205a5bd2307f83a1c77217e5bf9c4 = L.rectangle(
+                [[-6.376586263141957, 107.12046264880243], [-6.4037139724873, 107.14757946538546]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_926205a5bd2307f83a1c77217e5bf9c4.bindTooltip(
+                `<div>
+                     Sirnajaya, Kab Bekasi, Jawa Barat, Jawa, 17330, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d9404ea3e594b483dd74f3e41b5def56 = L.rectangle(
+                [[-6.3812938654833955, 107.15187422508792], [-6.40842156987541, 107.17899128963701]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d9404ea3e594b483dd74f3e41b5def56.bindTooltip(
+                `<div>
+                     Greenland International Industrial Center, Nagasari, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_93afbb373d24c862194b86a643db647c = L.rectangle(
+                [[-6.096426686013307, 107.01202961023719], [-6.123554683678924, 107.03913200520844]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_93afbb373d24c862194b86a643db647c.bindTooltip(
+                `<div>
+                     Jalan Raya Kampung Ps. Emas, Kab Bekasi, Jawa Barat, Jawa, 17218, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_2ce008c2f97fc9d0d6fe755ade286440 = L.rectangle(
+                [[-6.216220959176696, 106.99711927991007], [-6.243348835114984, 107.02422776077296]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_2ce008c2f97fc9d0d6fe755ade286440.bindTooltip(
+                `<div>
+                     Jalan KH. Agus Salim, Bekasi Jaya, Bekasi, Jawa Barat, Jawa, 17112, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_b2056b34aff31947a0d7f59cefa8ed19 = L.rectangle(
+                [[-6.348448163005198, 107.00283360841102], [-6.375575901882595, 107.0299489467479]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_b2056b34aff31947a0d7f59cefa8ed19.bindTooltip(
+                `<div>
+                     Jalan MT Haryono, Cileungsi, Kab Bekasi, Jawa Barat, Jawa, 17320, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_72198b6b08d9979f44a2f2009a61d798 = L.rectangle(
+                [[-6.208441455307763, 107.19880149793833], [-6.235569339221719, 107.22590957992203]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_72198b6b08d9979f44a2f2009a61d798.bindTooltip(
+                `<div>
+                     Jalan Peundeuy Barat, Karangsatu, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_f2e4f2e3798d05759f3a5d8e4bdea8a3 = L.rectangle(
+                [[-6.1120177216333795, 107.2084996857081], [-6.139145703588091, 107.2356028659305]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_f2e4f2e3798d05759f3a5d8e4bdea8a3.bindTooltip(
+                `<div>
+                     Jalan Segaran, Karangsegar, Kab Bekasi, Jawa Barat, Jawa, 17630, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_09ba8fe7590168cb4d10684d3faa4978 = L.rectangle(
+                [[-6.326904703228772, 107.02551879484135], [-6.354032464630255, 107.05263300588474]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_09ba8fe7590168cb4d10684d3faa4978.bindTooltip(
+                `<div>
+                     Jalan MT Haryono, Cileungsi, Kab Bekasi, Jawa Barat, Jawa, 17320, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_d406fde6be0a8362e4ccf97afa4359c9 = L.rectangle(
+                [[-6.322458856226518, 107.02856273268357], [-6.349586622266864, 107.05567671157722]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_d406fde6be0a8362e4ccf97afa4359c9.bindTooltip(
+                `<div>
+                     Jalan Setu - Bantar Gebang, Setu, Kab Bekasi, Jawa Barat, Jawa, 17155, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_1c4e0f0516a0e41aedc4bbfdbfd3b3fa = L.rectangle(
+                [[-6.080750820172635, 107.1644798659399], [-6.107878833594893, 107.19158147344355]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_1c4e0f0516a0e41aedc4bbfdbfd3b3fa.bindTooltip(
+                `<div>
+                     Jalan Kampung Pulo Gelatik, Sindangsari, Kab Bekasi, Jawa Barat, Jawa, 17720, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_54653f574488acfdfe464d0c2dc57511 = L.rectangle(
+                [[-6.402335675970935, 107.13590067097542], [-6.42946335817896, 107.16301884615018]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_54653f574488acfdfe464d0c2dc57511.bindTooltip(
+                `<div>
+                     Jalan Kiai Hasan Jueni, Nagacipta, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_58548bbe3658c027ebdfb8a338dfecd4 = L.rectangle(
+                [[-6.437110493381627, 107.08840615113687], [-6.464238138770172, 107.11552616995726]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_58548bbe3658c027ebdfb8a338dfecd4.bindTooltip(
+                `<div>
+                     Sirnajati, Jonggol, Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var rectangle_237580fb5573c36ac9aae2fb40cdb871 = L.rectangle(
+                [[-6.046444210956117, 107.00794271839153], [-6.073572258722668, 107.03504260971512]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b679d7e2756b92666114139df673f1a1);
+        
+    
+            rectangle_237580fb5573c36ac9aae2fb40cdb871.bindTooltip(
+                `<div>
+                     Kab Bekasi, Jawa Barat, Jawa, Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
